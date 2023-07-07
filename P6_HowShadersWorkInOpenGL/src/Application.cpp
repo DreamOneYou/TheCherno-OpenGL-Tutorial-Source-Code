@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-
 static unsigned int CompileShader(unsigned int type, const std::string& source)
 {
     unsigned int id = glCreateShader(type);
